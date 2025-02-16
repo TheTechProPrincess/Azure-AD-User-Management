@@ -15,11 +15,6 @@ This project focuses on **managing user accounts, enforcing security policies, a
 - Conditional Access Policies  
 - Privileged Identity Management  
 
-## 🔧 Implementation Steps  
-### **1️⃣ Connect to Azure AD**  
-```sh
-
-Connect-AzureAD
 
 📊 Results & Findings
 	•	Automated user account creation, saving 50% time.
