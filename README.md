@@ -19,3 +19,8 @@ This project focuses on **managing user accounts, enforcing security policies, a
 ### **1️⃣ Connect to Azure AD**  
 ```sh
 Connect-AzureAD
+
+📊 Results & Findings
+	•	Automated user account creation, saving 50% time.
+	•	Enforced MFA security, reducing account takeovers.
+	•	Implemented least-privilege access using PIM.
