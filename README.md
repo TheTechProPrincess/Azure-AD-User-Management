@@ -18,6 +18,7 @@ This project focuses on **managing user accounts, enforcing security policies, a
 ## 🔧 Implementation Steps  
 ### **1️⃣ Connect to Azure AD**  
 ```sh
+
 Connect-AzureAD
 
 📊 Results & Findings
