@@ -1,25 +1,21 @@
-# Azure Virtual Machine Deployment & Management  
+# Azure AD User Management & Security Policies
 
 ## 📌 Project Overview  
-This project focuses on **deploying and managing Virtual Machines (VMs) in Azure**, automating administrative tasks, and implementing security policies for enterprise environments.  
+This project focuses on **managing user accounts, enforcing security policies, and automating administrative tasks** in Azure Active Directory.
 
 ## 🎯 Objectives  
-✔ Deploy Azure VMs for users  
-✔ Configure auto-shutdown policies to reduce costs  
-✔ Assign role-based access for secure admin control  
+✔ Automate user creation in Azure AD  
+✔ Enforce Multi-Factor Authentication (MFA)  
+✔ Set up Privileged Identity Management (PIM)  
+✔ Assign Microsoft 365 Licenses automatically  
 
 ## 🛠 Technologies Used  
-- Azure Virtual Machines (VMs)  
-- Auto-Shutdown Policies  
-- Role-Based Access Control (RBAC)  
+- Azure AD Admin Center  
 - PowerShell  
-
----
+- Conditional Access Policies  
+- Privileged Identity Management  
 
 ## 🔧 Implementation Steps  
-
-### **1️⃣ Deploy an Azure Virtual Machine**  
-This command will create a new **Windows 11 VM** in Azure:  
-
+### **1️⃣ Connect to Azure AD**  
 ```sh
-New-AzVM -ResourceGroupName "VM-Group" -Name "EnterpriseVM" -Location "EastUS" -VirtualNetworkName "EnterpriseVNet" -SubnetName "VM-Subnet" -SecurityGroupName "VM-NSG" -PublicIpAddressName "VM-PublicIP"
+Connect-AzureAD
